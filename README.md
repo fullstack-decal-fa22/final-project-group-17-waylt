@@ -10,6 +10,8 @@
 
 # Usage Instruction
 
+The first time you download the repository, run `npm install` in the frontend folder.
+
 Use `cd frontend` and `npm start` to load the frontend server. To load the backend server on a different
-local port, use `cd src/backend` and `node database.js` on a separate terminal. Both servers need to be running
+local port, use `cd src/backend` from the frontend directory, then run `node database.js` on a separate terminal. Both servers need to be running
 for the project to function.
